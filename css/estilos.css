@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    /* cuerpo principla */
+    :root {
+        --blue: #4e73df;
+        --indigo: #6610f2;
+        --purple: #6f42c1;
+        --pink: #e83e8c;
+        --red: #e74a3b;
+        --orange: #fd7e14;
+        --yellow: #f6c23e;
+        --green: #1cc88a;
+        --teal: #20c9a6;
+        --cyan: #36b9cc;
+        --white: #fff;
+        --gray: #858796;
+        --gray-dark: #5a5c69;
+        --primary: #4e73df;
+        --secondary: #858796;
+        --success: #1cc88a;
+        --info: #36b9cc;
+        --warning: #f6c23e;
+        --danger: #e74a3b;
+        --light: #f8f9fc;
+        --dark: #5a5c69;
+        --breakpoint-xs: 0;
+        --breakpoint-sm: 576px;
+        --breakpoint-md: 768px;
+        --breakpoint-lg: 992px;
+        --breakpoint-xl: 1200px;
+        --font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      }
+   
+    body{
+     background-color: rgb(206, 157, 93);  
+    }
+   
+    .navegacion{
+       
+    
+     
+   background-color: #990000;
+    background-size: cover; 
+    text-align: center;
+    
+    }
+    .navegacion ul{
+       
+     list-style: none  ;
+     position: center;
+     text-align: center;
+ 
+    }
+    .bases{
+
+        text-align: center;
+    }
+    
+    .menu > li{
+        
+     position: relative;
+     display: inline-block;
+   
+    }
+    .menu >li > a {
+       
+     display: block;
+     padding: 10px 19px;
+    
+     font-family: Arial;
+     text-decoration: none;
+     color: white   ;
+    }
+     .menu li a:hover{
+    
+        color: rgb(127, 178, 255);
+        transition: all .3s;
+     }
+      
+     .submenu{
+     position:absolute;
+     background:  rgb(187, 65, 65);  
+     
+     width: 160%;
+     display: none;
+     }
+     .submenu li a{
+     display: block;
+     color: white;
+     padding: 15px;
+     text-decoration: none;
+     font-family: Arial;
+     }
+    .menu li:hover .submenu{
+        display: block;
+    }
+    .submenu2{
+        position:absolute;
+        background:  rgb(187, 65, 65);  
+        width: 160%;
+        display: none;
+        }
+        .submenu2 li a{
+        display: block;
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+        font-family: Arial;
+        }
+       .menu li:hover .submenu2{
+           display: block;
+       }
+
+       .submenu3{
+        position:absolute;
+        background:  rgb(187, 65, 65);   
+        width: 160%;
+        display: none;
+        }
+        .submenu3 li a{
+        display: block;
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+        font-family: Arial;
+        }
+       .menu li:hover .submenu3{
+           display: block;
+       }
+       
+
+       /* index */
+   
+
+
+
+
+
+
+
+
+        /* exclusivo Direcctorio */
+        .dir{
+            padding: 50px;
+        }
+        .conte, .dtos{
+
+   
+  text-align: center;
+    display: inline-block;
+    vertical-align: top;
+  
+ }
+.dir{
+    text-align: center;
+}
+
+   
+        /* exclisivo publicaciones */
+
+
+#articulos{
+width: 70%;
+border-right: 1px solid grey;
+float: left;
+padding: 10px;
+margin: 10px;
+font-size: 24px;
+font-family: Arial;
+}
+
+#articulos article{
+
+  padding: 10px;
+  border-bottom: 1px solid grey;
+}
+#articulos article img {
+
+  width: 90px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+aside{
+width: 25% ;
+float: right;
+font-size: 24px;
+font-family: Arial;
+
+}
+
+
+
+
+        /* #art1, #art2, #art3{
+    font-size: 24px;
+    padding: 70px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial;
+
+}
+ */
+
+
+
+.input-row {
+	margin-bottom: 30px;
+}
+
+.input-field {
+	width: 100%;
+	border-radius: 2px;
+	padding: 10px;
+	border: #e0dfdf 1px solid;
+}
+
+.btn-submit {
+	padding: 10px 20px;
+	background: #333;
+	border: #1d1d1d 1px solid;
+	color: #f0f0f0;
+	font-size: 0.9em;
+	width: 150px;
+	border-radius: 2px;
+	cursor: pointer;
+	float:right;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.comment-row {
+
+	margin-bottom: 15px;
+	padding: 15px;
+}
+
+.outer-comment {
+	padding: 10px;
+	
+	
+}
+
+span.commet-row-label {
+	font-style: italic;
+}
+
+span.posted-by {
+	color: rgb(255, 255, 255);
+}
+
+.comment-info {
+	font-size: 0.8em;
+}
+
+.comment-text {
+	margin: 10px 0px;
+}
+
+.btn-reply {
+	font-size: 0.8em;
+	text-decoration: underline;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+#comment-message {
+	margin-left: 20px;
+	color: #0add0a;
+	display: none;
+}
+
+.like-unlike {
+	vertical-align: text-bottom;
+	cursor: pointer;
+}
+
+.post-action {
+	margin-top: 15px;
+    font-size: 0.8em;
+}
+span.posted-at {
+    color: #ffffff;
+}
+
+
+
